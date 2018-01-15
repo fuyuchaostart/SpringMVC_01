@@ -16,9 +16,6 @@ public class HelloWord {
         System.out.println("hello SpringMVC...");
         System.out.println("hello SpringMVC...");
         System.out.println("hello SpringMVC...");
-        System.out.println("hello SpringMVC...");
-        System.out.println("hello SpringMVC...");
-        System.out.println("hello SpringMVC...");
         return "account";
     }
 
