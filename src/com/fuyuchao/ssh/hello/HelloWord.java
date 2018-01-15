@@ -14,6 +14,11 @@ public class HelloWord {
     @RequestMapping(value = "hello", params = {"arg1=123", "agr2=321"}, headers = {"language=zh-CN"})
     public String helloWord() {
         System.out.println("hello SpringMVC...");
+        System.out.println("hello SpringMVC...");
+        System.out.println("hello SpringMVC...");
+        System.out.println("hello SpringMVC...");
+        System.out.println("hello SpringMVC...");
+        System.out.println("hello SpringMVC...");
         return "account";
     }
 
